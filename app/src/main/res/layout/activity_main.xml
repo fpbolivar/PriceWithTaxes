@@ -12,9 +12,10 @@
         android:id="@+id/zipcode"
         android:layout_width="144dp"
         android:layout_height="106dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="608dp"
         android:text="@string/press_the_bottom"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,10 +24,83 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="buttonOnClick"
-        android:text="@string/getzipcode"
+        android:text="@string/get_location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.931" />
+
+    <EditText
+        android:id="@+id/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="74dp"
+        tools:text="Price" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="102dp"
+        android:layout_height="48dp"
+        android:text="Add"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/Substract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Substract"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <Button
+        android:id="@+id/Multiply"
+        android:layout_width="103dp"
+        android:layout_height="48dp"
+        android:text="Multiply"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <Button
+        android:id="@+id/Divide"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
+        android:text="Divide"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <EditText
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Result"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <EditText
+        android:id="@+id/Region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Region Taxes Rate"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/County"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="265dp"
+        tools:text="County Taxes Rate" />
 </androidx.constraintlayout.widget.ConstraintLayout>

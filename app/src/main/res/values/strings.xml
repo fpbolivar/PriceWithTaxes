@@ -3,5 +3,6 @@
     <string name="map_key" translatable="false">AIzaSyCGo9ptsB3XGFKSUef_sM5kF0x1AMZCTjY</string>
     <string name="press_the_bottom">Press the Bottom</string>
     <string name="getzipcode">GetZipCode</string>
+    <string name="get_location">Get Location</string>
 
 </resources>
